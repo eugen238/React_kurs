@@ -1,0 +1,37 @@
+.heading img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.NewArrivals h4 {
+  font-weight: 400;
+}
+.NewArrivals span {
+  color: #e94560;
+  font-size: 15px;
+  font-weight: 500;
+}
+.NewArrivals .box img {
+  width: 100%;
+  height: 100%;
+}
+.flex3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin: 20px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
