@@ -4,22 +4,22 @@ import "./Vendor.css";
 const Vender = () => {
   return (
     <>
-      <div className='flex user_container'>
+      <div className="flex user_container">
         <label>
-          <h2>Вход в Аккаунт Продовца</h2>
+          <h2>Войти в аккаунт</h2>
         </label>
-        <div className='flex'>
+        <div className="flex">
           <input
-            placeholder='Логин...'
-            className='input_user login'
-            type='text'
+            placeholder="Логин..."
+            className="input_user login"
+            type="text"
           />
           <input
-            placeholder='Пароль...'
-            className='input_user password'
-            type='text'
+            placeholder="Пароль..."
+            className="input_user password"
+            type="text"
           />
-          <button className='confirm-button'>Войти</button>
+          <button className="confirm-button">Войти</button>
         </div>
       </div>
     </>

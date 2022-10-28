@@ -66,6 +66,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-left: 70px;
 }
 .box3 {
   width: 200px;
@@ -118,6 +119,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 0px;
   }
 }
 .img1 {
@@ -140,7 +142,6 @@
   width: 160px;
   height: 160px;
 }
-/* .img {
-  width: 160px;
-  height: 160px;
-} */
+.btn1 {
+  cursor: pointer;
+}

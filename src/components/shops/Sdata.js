@@ -10,7 +10,8 @@ const Sdata = {
     },
     {
       id: 8,
-      cover: "https://paymart.uz/images/detailed/31/223_19lu-hb.jpg",
+      cover:
+        "https://bireysel.turktelekom.com.tr/cihazlar/publishingimages/telefon/vivo-v21-white.jpg",
       name: "Vivo v21",
       price: "499",
       discount: "10",
@@ -68,6 +69,14 @@ const Sdata = {
       name: "Apple Iphone 13",
       price: "899",
       discount: "2",
+    },
+    {
+      id: 15,
+      cover:
+        "https://www.icases.ru/upload/resize_cache/iblock/dbd/240_240_1/dbd57b37eae4380af47e3754bd6e87b3.jpg",
+      name: "Apple Iphone 14 Pro Max",
+      price: "1099",
+      discount: "5",
     },
   ],
 };

@@ -16,6 +16,9 @@ label {
   margin: 10px;
   padding: 10px;
 }
+.input_user::placeholder {
+  font: 21px sans-serif;
+}
 .user_container {
   height: 60vh;
 }

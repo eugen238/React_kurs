@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const Catg = (props) => {
   const data = [
@@ -46,29 +47,30 @@ const Catg = (props) => {
   // };
   return (
     <>
-      <div className='category'>
-        <div className='chead flex4'>
+      <div className="category">
+        <div className="chead flex4">
           <h1>Бренды </h1>
           <h1>Магазины </h1>
         </div>
-        <div className='flex8'>
+        <div className="flex8">
           {data.map((value, index) => {
             return (
               <div
                 onClick={() => {
                   props.SortData(value.cateName);
                 }}
-                className='box f_flex'
-                key={index}>
-                <img className='img1' src={value.cateImg} alt='' />
+                className="box f_flex"
+                key={index}
+              >
+                <img className="img1" src={value.cateImg} alt="" />
                 <span>{value.cateName}</span>
               </div>
             );
           })}
         </div>
 
-        <div className='box box2'>
-          <button onClick={(e) => props.SortData("")}>
+        <div className="box box2">
+          <button className="btn1" onClick={(e) => props.SortData("")}>
             Посмотреть все бренды
           </button>
         </div>
