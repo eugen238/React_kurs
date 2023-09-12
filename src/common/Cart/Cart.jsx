@@ -73,7 +73,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
             </div>
 
             <button
-              onClick={() => console.log("Данила любит много героина!!!")}
+              onClick={() => console.log("")}
               className="btn"
             >
               Оформить заказ
